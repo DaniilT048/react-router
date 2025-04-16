@@ -42,5 +42,16 @@
 }
 
 .active{
-  color: #aaa
+  color: #C0C0C0
+}
+
+.header-menu{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  border-bottom: grey solid 2px;
+}
+
+.header-menu li {
+  padding-right: 50px;
 }
