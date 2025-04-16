@@ -12,12 +12,12 @@ const routes = [
     {
         path: "about",
         element: <About />,
-        label: "Home",
+        label: "About",
     },
     {
         path: "contact",
         element: <Contact />,
-        label: "Home",
+        label: "Contact",
     },
 ];
 
