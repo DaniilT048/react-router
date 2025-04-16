@@ -5,7 +5,7 @@ import Contact from "./components/Contact.jsx";
 
 const routes = [
     {
-        path: "",
+        path: "home",
         element: <Home/>,
         label: "Home",
     },
