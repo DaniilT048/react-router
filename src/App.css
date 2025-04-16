@@ -63,3 +63,13 @@
   border-top: grey solid 2px;
   font-size: 10px;
 }
+
+.layout-wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content{
+  flex: 1;
+}

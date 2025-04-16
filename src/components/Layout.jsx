@@ -4,11 +4,13 @@ import FooterText from "./FooterText.jsx";
 
 const Layout = () =>{
     return (
-        <>
+        <div className="layout-wrapper">
             <HeaderMenu/>
-            <Outlet/>
+            <div className="content">
+                <Outlet/>
+            </div>
             <FooterText/>
-        </>
+        </div>
         )
 
 
