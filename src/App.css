@@ -50,8 +50,16 @@
   text-decoration: none;
   list-style: none;
   border-bottom: grey solid 2px;
+  justify-content: space-between;
 }
 
 .header-menu li {
   padding-right: 50px;
+}
+
+.footer-copyright{
+  display: flex;
+  justify-content: flex-start;
+  border-top: grey solid 2px;
+  font-size: 5px;
 }
