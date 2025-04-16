@@ -1,5 +1,3 @@
-import HeaderMenu from "./HeaderMenu.jsx";
-
 const Home = () => {
     document.title = "Home";
     return(

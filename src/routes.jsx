@@ -6,17 +6,17 @@ import Contact from "./components/Contact.jsx";
 const routes = [
     {
         path: "",
-        element: <Home />,
+        element: <Home/>,
         label: "Home",
     },
     {
         path: "about",
-        element: <About />,
+        element: <About/>,
         label: "About",
     },
     {
         path: "contact",
-        element: <Contact />,
+        element: <Contact/>,
         label: "Contact",
     },
 ];

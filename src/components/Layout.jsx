@@ -7,7 +7,9 @@ const Layout = () =>{
             <HeaderMenu/>
             <Outlet/>
         </>
-    )
+        )
+
+
 }
 
 export default Layout;
