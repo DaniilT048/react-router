@@ -5,17 +5,17 @@ import Contact from "./components/Contact.jsx";
 
 const routes = [
     {
-        path: "home",
+        path: "/",
         element: <Home/>,
         label: "Home",
     },
     {
-        path: "about",
+        path: "/about",
         element: <About/>,
         label: "About",
     },
     {
-        path: "contact",
+        path: "/contact",
         element: <Contact/>,
         label: "Contact",
     },
