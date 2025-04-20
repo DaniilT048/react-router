@@ -1,8 +1,17 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.dark-theme{
+  color: rgba(255, 255, 255, 0.87);
+  background-color:  #242424;
+}
+
+.light-theme{
+  color: black;
+  background-color:  silver;
 }
 
 .logo {
@@ -45,16 +54,22 @@
   color: #C0C0C0
 }
 
-.header-menu{
+.header-menu-list {
   display: flex;
   text-decoration: none;
   list-style: none;
-  border-bottom: grey solid 2px;
   justify-content: space-between;
 }
 
-.header-menu li {
+.header-menu-list li {
   font-size: 40px;
+}
+
+.header-menu {
+  border-bottom: grey solid 2px;
+}
+.header-menu button {
+  display: flex;
 }
 
 .footer-copyright{
