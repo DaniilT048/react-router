@@ -1,7 +1,6 @@
 import {NavLink} from "react-router";
 import routes from "../routes.jsx";
 import {useTheme} from "../contexts/ThemeContext.jsx";
-import {useContext} from "react";
 import { AiFillMoon } from "react-icons/ai";
 
 
